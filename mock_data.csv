@@ -29,23 +29,23 @@ airport, activity, time, min_layover_time, type, url
 "ICN", "Watch live cultural performances in the main terminal", 60, 120, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8llLhzc9fl0UR87vchDrgGL1bq6xNQjz4EAIH
 "ICN", "Stroll through the airport's indoor gardens", 30, 90, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8TIGSOKD7Oo3kRScTFaVZhCUv9DKqAEgm4B08
 "ICN", "Take a free transit tour to visit nearby attractions like Incheon City or Seoul", 240, 360, "Tour", 
-"HND", "Visit the Edo-Koji shopping area for a traditional Japanese atmosphere", 60, 120, "Culture", 
+"HND", "Visit the Edo-Koji shopping area for a traditional Japanese atmosphere", 60, 120, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8guBS83cet2foOxEz9mSYndhXPMb67rNJaKiy
 "HND", "Enjoy sushi, ramen, or tempura at authentic Japanese restaurants", 60, 120, "Food", 
-"HND", "Relax at one of the airport lounges (e.g., ANA Lounge or JAL Sakura Lounge)", 120, 240, "Comfort", 
-"HND", "Shop for Japanese souvenirs like matcha, wagashi, or anime merchandise", 60, 120, "Shopping", 
-"HND", "Watch planes from the Observation Deck with stunning city views", 30, 90, "Leisure", 
-"HND", "Take a nap or rest at the Royal Park Hotel Transit Lounge", 120, 240, "Rest", 
-"HND", "Explore the Planetarium Starry Cafe for a unique dining experience", 60, 120, "Entertainment", 
+"HND", "Relax at one of the airport lounges (e.g., ANA Lounge or JAL Sakura Lounge)", 120, 240, "Comfort", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8guBS83cet2foOxEz9mSYndhXPMb67rNJaKiy
+"HND", "Shop for Japanese souvenirs like matcha, wagashi, or anime merchandise", 60, 120, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8kTasQ75OeIUgo1T4iLQ3zAxvnPN2uDBpcCb5
+"HND", "Watch planes from the Observation Deck with stunning city views", 30, 90, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8UbcjWhB61jFedYn8ZgzIxskRl0mTfwaAN9yb
+"HND", "Take a nap or rest at the Royal Park Hotel Transit Lounge", 120, 240, "Rest", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8LFfHLnpsKl5VyGeBaZ1HXA0bOvFfitUjEohR
+"HND", "Explore the Planetarium Starry Cafe for a unique dining experience", 60, 120, "Entertainment", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM89luWY8SACg1z5x6ur0Pj7sLQwbk8Z9n3KTRJ
 "HND", "Visit the Japan Travel Cafe for tourist information and cultural activities", 60, 120, "Culture", 
 "HND", "Enjoy a traditional Japanese bath at the airport’s onsen, Edo Hot Springs", 90, 180, "Wellness", 
-"HND", "Take a short monorail ride to explore nearby Tokyo attractions", 180, 360, "Tour"   , 
-"CDG", "Relax in the premium airport lounges like Air France Lounge", 120, 240, "Comfort", 
-"CDG", "Enjoy fine French dining at restaurants like Ladurée or Pret a Manger", 60, 120, "Food", 
-"CDG", "Shop for luxury brands such as Chanel, Dior, and Louis Vuitton", 90, 180, "Shopping", 
+"HND", "Take a short monorail ride to explore nearby Tokyo attractions", 180, 360, "Tour", 
+"CDG", "Relax in the premium airport lounges like Air France Lounge", 120, 240, "Comfort", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM81wMKVD2UwkbthxYEfI5plOScW48mZDPJ1H92
+"CDG", "Enjoy fine French dining at restaurants like Ladurée or Pret a Manger", 60, 120, "Food", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8iOxpw7FPyn2hAaNIWwZHRXL1c0CrjiYzq3Q4
+"CDG", "Shop for luxury brands such as Chanel, Dior, and Louis Vuitton", 90, 180, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8xlOSykGPlS80Fp2BJXHWQxcKL36o7RCfyMnk
 "CDG", "Explore the Espace Musées, featuring rotating art exhibits from Paris museums", 60, 120, "Culture", 
-"CDG", "Get a massage or wellness treatment at Be Relax Spa", 60, 120, "Wellness", 
-"CDG", "Stroll through the airport’s designer boutiques for duty-free shopping", 90, 150, "Shopping", 
-"CDG", "Watch planes from the terminal’s large observation areas", 30, 90, "Leisure", 
-"CDG", "Relax at YOTELAir’s cabins for a nap or private rest", 120, 240, "Rest", 
-"CDG", "Enjoy pastries or coffee at iconic French patisseries like Paul or Fauchon", 30, 90, "Food", 
-"CDG", "Take a short RER train ride to visit Paris if time permits", 240, 360, "Tour", 
+"CDG", "Get a massage or wellness treatment at Be Relax Spa", 60, 120, "Wellness", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM897YFqfmSACg1z5x6ur0Pj7sLQwbk8Z9n3KTR
+"CDG", "Stroll through the airport’s designer boutiques for duty-free shopping", 90, 150, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8x97bqgGPlS80Fp2BJXHWQxcKL36o7RCfyMnk
+"CDG", "Watch planes from the terminal’s large observation areas", 30, 90, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8aaSHFH7pevlm4thWz8xFifKDPMXrqLAb6GCZ
+"CDG", "Relax at YOTELAir’s cabins for a nap or private rest", 120, 240, "Rest", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8Hczm4MVaAOeFVkZhSLG0gRP4TywH1xdsNUYc
+"CDG", "Enjoy pastries or coffee at iconic French patisseries like Paul or Fauchon", 30, 90, "Food", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM81MueWMN2UwkbthxYEfI5plOScW48mZDPJ1H9
+"CDG", "Take a short RER train ride to visit Paris if time permits", 240, 360, "Tour", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8ttWvujO3gIQhcsDWOaMrV0TyuHJALkiXPj9p
