@@ -10,23 +10,27 @@ api_key = os.getenv("API_KEY")
 
 def main():
     url = "https://us1.locationiq.com/v1/nearby"
+    response = requests.get("https://ipinfo.io/json")
+    data = response.json()
 
-    data = {
-        "key": api_key,
-        "lat": "-37.870983",
-        "lon": "144.980714",
-        "tag": "restaurant",
-        "radius": 100,
-        "format": "json",
-    }
+    print(data)
 
-    response = requests.get(url, params=data)
+    # data = {
+    #     "key": api_key,
+    #     "lat": "30.6110",
+    #     "lon": "-96.3491",
+    #     "tag": "restaurant",
+    #     "radius": 1000,
+    #     "format": "json",
+    # }
 
-    if response.status_code == 200:
-        with open("res.json", "w") as f:
-            json.dump(response.json(), f, indent=4)
-    else:
-        print("Error")
+    # response = requests.get(url, params=data)
+
+    # if response.status_code == 200:
+    #     with open("res.json", "w") as f:
+    #         json.dump(response.json(), f, indent=4)
+    # else:
+    #     print("Error")
 
 
 if __name__ == "__main__":
