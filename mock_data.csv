@@ -9,25 +9,25 @@ airport, activity, time, min_layover_time, type, url
 "JFK", "Get a quick massage or facial at XpresSpa", 30, 90, "Wellness", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8Q00bIgB8S9R8BspFqwvLf7rEgt3VCYNkWyOM
 "JFK", "Use the AirTrain to visit nearby Jamaica Bay Wildlife Refuge", 180, 300, "Nature", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8NMFC0Y1xdjUqulKsi3NCvk1Sh7t65p20BPFA
 "JFK", "Take a nap at Minute Suites", 120, 180, "Rest", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8CPtEWUdZTM8ctjvdrCYXxaVFyEnhJqUSRQkO
-"MNL", "Relax at the Wings Transit Lounge in Terminal 3", 120, 240, "Comfort", 
-"MNL", "Dine on authentic Filipino cuisine (e.g., at Ka Tunying’s Café)", 60, 120, "Food", 
-"MNL", "Shop for local souvenirs like dried mangoes or handicrafts", 60, 120, "Shopping", 
-"MNL", "Get a massage or spa treatment at The Spa in Terminal 3", 90, 180, "Wellness", 
-"MNL", "Visit the XpresSpa for a quick rejuvenation session", 30, 90, "Wellness", 
-"MNL", "Use the pay-per-use sleeping pods in Terminal 3", 120, 180, "Rest", 
-"MNL", "Enjoy plane spotting from the viewing decks", 60, 120, "Leisure", 
-"MNL", "Take a short trip to Resorts World Manila via shuttle", 180, 300, "Leisure", 
+"MNL", "Relax at the Wings Transit Lounge in Terminal 3", 120, 240, "Comfort", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8o8doov6X6g0JTjdwF2MGq8AVePfl3nbmLNxD
+"MNL", "Dine on authentic Filipino cuisine (e.g., at Ka Tunying’s Café)", 60, 120, "Food", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8mIZUsGqtD0SnYWhkm269fBMl8uTvgPaRGFeX
+"MNL", "Shop for local souvenirs like dried mangoes or handicrafts", 60, 120, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM895VEfVSACg1z5x6ur0Pj7sLQwbk8Z9n3KTRJ
+"MNL", "Get a massage or spa treatment at The Spa in Terminal 3", 90, 180, "Wellness", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8o8doov6X6g0JTjdwF2MGq8AVePfl3nbmLNxD
+"MNL", "Visit the XpresSpa for a quick rejuvenation session", 30, 90, "Wellness", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8KKkTikrqmQAYJPtBjUvbnrIkh7O6CF39yxRu
+"MNL", "Use the pay-per-use sleeping pods in Terminal 3", 120, 180, "Rest", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8uu0yv6Q4BVqGeoQzkhTIxp1E5dCXbMrjcPYl
+"MNL", "Enjoy plane spotting from the viewing decks", 60, 120, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8H6eU1RVaAOeFVkZhSLG0gRP4TywH1xdsNUYc
+"MNL", "Take a short trip to Resorts World Manila via shuttle", 180, 300, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8gAAUnV4cet2foOxEz9mSYndhXPMb67rNJaKi
 "MNL", "Catch a live cultural performance (seasonal events)", 60, 120, "Culture", 
-"MNL", "Explore nearby Newport Mall for dining and entertainment", 120, 240, "Shopping", 
-"ICN", "Relax at the Korean Traditional Culture Center and try traditional crafts", 90, 180, "Culture", 
-"ICN", "Enjoy a nap or rest at the Incheon Transit Hotel", 120, 240, "Rest", 
-"ICN", "Dine at local restaurants for authentic Korean dishes (e.g., bibimbap or bulgogi)", 60, 120, "Food", 
-"ICN", "Visit the airport's indoor ice-skating rink", 60, 180, "Leisure", 
+"MNL", "Explore nearby Newport Mall for dining and entertainment", 120, 240, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8YnesnYSHI5TSXJkdOxaZg3s0HceqRytPnKGD
+"ICN", "Relax at the Korean Traditional Culture Center and try traditional crafts", 90, 180, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8KzuXL7rqmQAYJPtBjUvbnrIkh7O6CF39yxRu
+"ICN", "Enjoy a nap or rest at the Incheon Transit Hotel", 120, 240, "Rest", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8kylHMX5OeIUgo1T4iLQ3zAxvnPN2uDBpcCb5
+"ICN", "Dine at local restaurants for authentic Korean dishes (e.g., bibimbap or bulgogi)", 60, 120, "Food", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8Ae3d1gZm3r4hiKQv1lIS2ekMgxnTuoPBjWV0
+"ICN", "Visit the airport's indoor ice-skating rink", 60, 180, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8rp2dkRPyIlvj5ViSnkowcB6rHuQOaYAbP9qU
 "ICN", "Shop for duty-free luxury brands and Korean beauty products", 60, 120, "Shopping", 
-"ICN", "Relax at the airport's spa and sauna facilities", 90, 180, "Wellness", 
-"ICN", "Explore the airport's digital experience zone and VR attractions", 60, 120, "Entertainment", 
-"ICN", "Watch live cultural performances in the main terminal", 60, 120, "Culture", 
-"ICN", "Stroll through the airport's indoor gardens", 30, 90, "Leisure", 
+"ICN", "Relax at the airport's spa and sauna facilities", 90, 180, "Wellness", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8PtCEjrImOAPYTEMGxB9pVbDjvdF42NCQ68iK
+"ICN", "Explore the airport's digital experience zone and VR attractions", 60, 120, "Entertainment", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8llLhzc9fl0UR87vchDrgGL1bq6xNQjz4EAIH
+"ICN", "Watch live cultural performances in the main terminal", 60, 120, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8llLhzc9fl0UR87vchDrgGL1bq6xNQjz4EAIH
+"ICN", "Stroll through the airport's indoor gardens", 30, 90, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8TIGSOKD7Oo3kRScTFaVZhCUv9DKqAEgm4B08
 "ICN", "Take a free transit tour to visit nearby attractions like Incheon City or Seoul", 240, 360, "Tour", 
 "HND", "Visit the Edo-Koji shopping area for a traditional Japanese atmosphere", 60, 120, "Culture", 
 "HND", "Enjoy sushi, ramen, or tempura at authentic Japanese restaurants", 60, 120, "Food", 
