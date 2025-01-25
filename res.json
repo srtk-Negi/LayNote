@@ -1,0 +1,125 @@
+[
+    {
+        "place_id": "323921187771",
+        "osm_id": "11693047203",
+        "osm_type": "node",
+        "licence": "https://locationiq.com/attribution",
+        "lat": "30.612527",
+        "lon": "-96.3407338",
+        "boundingbox": [
+            "30.612477",
+            "30.612577",
+            "-96.3407838",
+            "-96.3406838"
+        ],
+        "class": "amenity",
+        "type": "restaurant",
+        "tag_type": "restaurant",
+        "name": "Rev's American Grill",
+        "display_name": "Rev's American Grill, 400, Bizzell Street, College Station, Brazos County, Texas, 77840, United States",
+        "address": {
+            "name": "Rev's American Grill",
+            "house_number": "400",
+            "road": "Bizzell Street",
+            "city": "College Station",
+            "county": "Brazos County",
+            "state": "Texas",
+            "postcode": "77840",
+            "country": "United States",
+            "country_code": "us"
+        },
+        "distance": 818
+    },
+    {
+        "place_id": "321486168279",
+        "osm_id": "5476481384",
+        "osm_type": "node",
+        "licence": "https://locationiq.com/attribution",
+        "lat": "30.618065",
+        "lon": "-96.3460266",
+        "boundingbox": [
+            "30.618015",
+            "30.618115",
+            "-96.3460766",
+            "-96.3459766"
+        ],
+        "class": "amenity",
+        "type": "restaurant",
+        "tag_type": "restaurant",
+        "name": "Freebirds World Burrito",
+        "display_name": "Freebirds World Burrito, 319, University Drive, College Station, Brazos County, Texas, 77840, United States",
+        "address": {
+            "name": "Freebirds World Burrito",
+            "house_number": "319",
+            "road": "University Drive",
+            "city": "College Station",
+            "county": "Brazos County",
+            "state": "Texas",
+            "postcode": "77840",
+            "country": "United States",
+            "country_code": "us"
+        },
+        "distance": 838
+    },
+    {
+        "place_id": "320750218242",
+        "osm_id": "6223353900",
+        "osm_type": "node",
+        "licence": "https://locationiq.com/attribution",
+        "lat": "30.6188552",
+        "lon": "-96.3471278",
+        "boundingbox": [
+            "30.6188052",
+            "30.6189052",
+            "-96.3471778",
+            "-96.3470778"
+        ],
+        "class": "amenity",
+        "type": "restaurant",
+        "tag_type": "restaurant",
+        "name": "Baked or Fried",
+        "display_name": "Baked or Fried, 311, Church Avenue, College Station, Brazos County, Texas, 77840, United States",
+        "address": {
+            "name": "Baked or Fried",
+            "house_number": "311",
+            "road": "Church Avenue",
+            "city": "College Station",
+            "county": "Brazos County",
+            "state": "Texas",
+            "postcode": "77840",
+            "country": "United States",
+            "country_code": "us"
+        },
+        "distance": 893
+    },
+    {
+        "place_id": "322661658844",
+        "osm_id": "4147713537",
+        "osm_type": "node",
+        "licence": "https://locationiq.com/attribution",
+        "lat": "30.618672",
+        "lon": "-96.3456799",
+        "boundingbox": [
+            "30.618622",
+            "30.618722",
+            "-96.3457299",
+            "-96.3456299"
+        ],
+        "class": "amenity",
+        "type": "restaurant",
+        "tag_type": "restaurant",
+        "name": "Antonio's Pizza",
+        "display_name": "Antonio's Pizza, College Main Street, College Station, Brazos County, Texas, 77840, United States",
+        "address": {
+            "name": "Antonio's Pizza",
+            "road": "College Main Street",
+            "city": "College Station",
+            "county": "Brazos County",
+            "state": "Texas",
+            "postcode": "77840",
+            "country": "United States",
+            "country_code": "us"
+        },
+        "distance": 913
+    }
+]
