@@ -17,32 +17,32 @@ airport, activity, time, min_layover_time, type, url
 "MNL", "Use the pay-per-use sleeping pods in Terminal 3", 120, 180, "Rest", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8uu0yv6Q4BVqGeoQzkhTIxp1E5dCXbMrjcPYl
 "MNL", "Enjoy plane spotting from the viewing decks", 60, 120, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8H6eU1RVaAOeFVkZhSLG0gRP4TywH1xdsNUYc
 "MNL", "Take a short trip to Resorts World Manila via shuttle", 180, 300, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8gAAUnV4cet2foOxEz9mSYndhXPMb67rNJaKi
-"MNL", "Catch a live cultural performance (seasonal events)", 60, 120, "Culture", 
+"MNL", "Catch a live cultural performance (seasonal events)", 60, 120, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8SqWgpraQfnms52K4oWqk67hSiCcVuLJlAMFG
 "MNL", "Explore nearby Newport Mall for dining and entertainment", 120, 240, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8YnesnYSHI5TSXJkdOxaZg3s0HceqRytPnKGD
 "ICN", "Relax at the Korean Traditional Culture Center and try traditional crafts", 90, 180, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8KzuXL7rqmQAYJPtBjUvbnrIkh7O6CF39yxRu
 "ICN", "Enjoy a nap or rest at the Incheon Transit Hotel", 120, 240, "Rest", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8kylHMX5OeIUgo1T4iLQ3zAxvnPN2uDBpcCb5
 "ICN", "Dine at local restaurants for authentic Korean dishes (e.g., bibimbap or bulgogi)", 60, 120, "Food", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8Ae3d1gZm3r4hiKQv1lIS2ekMgxnTuoPBjWV0
 "ICN", "Visit the airport's indoor ice-skating rink", 60, 180, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8rp2dkRPyIlvj5ViSnkowcB6rHuQOaYAbP9qU
-"ICN", "Shop for duty-free luxury brands and Korean beauty products", 60, 120, "Shopping", 
+"ICN", "Shop for duty-free luxury brands and Korean beauty products", 60, 120, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8SqWgpraQfnms52K4oWqk67hSiCcVuLJlAMFG
 "ICN", "Relax at the airport's spa and sauna facilities", 90, 180, "Wellness", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8PtCEjrImOAPYTEMGxB9pVbDjvdF42NCQ68iK
 "ICN", "Explore the airport's digital experience zone and VR attractions", 60, 120, "Entertainment", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8llLhzc9fl0UR87vchDrgGL1bq6xNQjz4EAIH
 "ICN", "Watch live cultural performances in the main terminal", 60, 120, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8llLhzc9fl0UR87vchDrgGL1bq6xNQjz4EAIH
 "ICN", "Stroll through the airport's indoor gardens", 30, 90, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8TIGSOKD7Oo3kRScTFaVZhCUv9DKqAEgm4B08
-"ICN", "Take a free transit tour to visit nearby attractions like Incheon City or Seoul", 240, 360, "Tour", 
+"ICN", "Take a free transit tour to visit nearby attractions like Incheon City or Seoul", 240, 360, "Tour", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8SqWgpraQfnms52K4oWqk67hSiCcVuLJlAMFG
 "HND", "Visit the Edo-Koji shopping area for a traditional Japanese atmosphere", 60, 120, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8guBS83cet2foOxEz9mSYndhXPMb67rNJaKiy
-"HND", "Enjoy sushi, ramen, or tempura at authentic Japanese restaurants", 60, 120, "Food", 
+"HND", "Enjoy sushi, ramen, or tempura at authentic Japanese restaurants", 60, 120, "Food", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8SqWgpraQfnms52K4oWqk67hSiCcVuLJlAMFG
 "HND", "Relax at one of the airport lounges (e.g., ANA Lounge or JAL Sakura Lounge)", 120, 240, "Comfort", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8guBS83cet2foOxEz9mSYndhXPMb67rNJaKiy
 "HND", "Shop for Japanese souvenirs like matcha, wagashi, or anime merchandise", 60, 120, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8kTasQ75OeIUgo1T4iLQ3zAxvnPN2uDBpcCb5
 "HND", "Watch planes from the Observation Deck with stunning city views", 30, 90, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8UbcjWhB61jFedYn8ZgzIxskRl0mTfwaAN9yb
 "HND", "Take a nap or rest at the Royal Park Hotel Transit Lounge", 120, 240, "Rest", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8LFfHLnpsKl5VyGeBaZ1HXA0bOvFfitUjEohR
 "HND", "Explore the Planetarium Starry Cafe for a unique dining experience", 60, 120, "Entertainment", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM89luWY8SACg1z5x6ur0Pj7sLQwbk8Z9n3KTRJ
-"HND", "Visit the Japan Travel Cafe for tourist information and cultural activities", 60, 120, "Culture", 
-"HND", "Enjoy a traditional Japanese bath at the airport’s onsen, Edo Hot Springs", 90, 180, "Wellness", 
-"HND", "Take a short monorail ride to explore nearby Tokyo attractions", 180, 360, "Tour", 
+"HND", "Visit the Japan Travel Cafe for tourist information and cultural activities", 60, 120, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8SqWgpraQfnms52K4oWqk67hSiCcVuLJlAMFG
+"HND", "Enjoy a traditional Japanese bath at the airport’s onsen, Edo Hot Springs", 90, 180, "Wellness", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8SqWgpraQfnms52K4oWqk67hSiCcVuLJlAMFG
+"HND", "Take a short monorail ride to explore nearby Tokyo attractions", 180, 360, "Tour", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8SqWgpraQfnms52K4oWqk67hSiCcVuLJlAMFG
 "CDG", "Relax in the premium airport lounges like Air France Lounge", 120, 240, "Comfort", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM81wMKVD2UwkbthxYEfI5plOScW48mZDPJ1H92
 "CDG", "Enjoy fine French dining at restaurants like Ladurée or Pret a Manger", 60, 120, "Food", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8iOxpw7FPyn2hAaNIWwZHRXL1c0CrjiYzq3Q4
 "CDG", "Shop for luxury brands such as Chanel, Dior, and Louis Vuitton", 90, 180, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8xlOSykGPlS80Fp2BJXHWQxcKL36o7RCfyMnk
-"CDG", "Explore the Espace Musées, featuring rotating art exhibits from Paris museums", 60, 120, "Culture", 
+"CDG", "Explore the Espace Musées, featuring rotating art exhibits from Paris museums", 60, 120, "Culture", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8SqWgpraQfnms52K4oWqk67hSiCcVuLJlAMFG
 "CDG", "Get a massage or wellness treatment at Be Relax Spa", 60, 120, "Wellness", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM897YFqfmSACg1z5x6ur0Pj7sLQwbk8Z9n3KTR
 "CDG", "Stroll through the airport’s designer boutiques for duty-free shopping", 90, 150, "Shopping", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8x97bqgGPlS80Fp2BJXHWQxcKL36o7RCfyMnk
 "CDG", "Watch planes from the terminal’s large observation areas", 30, 90, "Leisure", https://2un69ehzzy.ufs.sh/f/C18Ju5ldZTM8aaSHFH7pevlm4thWz8xFifKDPMXrqLAb6GCZ
