@@ -36,6 +36,8 @@ const LLMResponsePage = ({ answers, onReset }: ActivityResultsProps) => {
       freeResponse,
     };
 
+    console.log(body);
+
     await fetch("/api/chat", {
       method: "POST",
       headers: {
@@ -45,7 +47,7 @@ const LLMResponsePage = ({ answers, onReset }: ActivityResultsProps) => {
     })
       .then((res) => res.json())
       .then((data) => {
-        setResponse(data.response);
+        setResponse(data);
         setIsLoading(false);
       })
       .catch((error) => console.error(error));
