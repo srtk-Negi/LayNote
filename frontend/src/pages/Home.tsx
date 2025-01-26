@@ -1,30 +1,45 @@
-import getLocation, { locationDataInterface } from "../utils/getLocation";
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { QuizFlow } from "@/components/QuizFlow";
+import { ActivityResults } from "@/components/ActivityResults";
+import { LandingPage } from "@/components/LandingPage";
+
+export interface Answers {
+  flightNumber: string;
+  departureDate: string;
+  [key: string]: string | string[];
+}
 
 const Home = () => {
-  const [location, setLocation] = useState({} as locationDataInterface);
+  const [step, setStep] = useState<"landing" | "quiz" | "results">("landing");
+  const [userAnswers, setUserAnswers] = useState<Answers>({
+    flightNumber: "",
+    departureDate: "",
+  });
 
-  const getCurrentLocation = async () => {
-    try {
-      const locationData = await getLocation();
-      setLocation(locationData);
-    } catch (error) {
-      console.error("Error fetching location data:", error);
-    }
+  const handleQuizComplete = (answers: Answers) => {
+    setUserAnswers(answers);
+    setStep("results");
   };
 
-  useEffect(() => {
-    getCurrentLocation();
-  }, []);
-
   return (
-    <div>
-      <h1 className="text-4xl font-bold">Home</h1>
-      <p className="text-2xl">Your location is:</p>
-      <p className="text-xl">
-        {location.city}, {location.loc}, {location.ip}
-      </p>
-    </div>
+    <main className="w-full min-h-screen bg-gray-900">
+      {step === "landing" && <LandingPage onStart={() => setStep("quiz")} />}
+      {step === "quiz" && (
+        <QuizFlow
+          onComplete={handleQuizComplete}
+          initialAnswers={userAnswers}
+        />
+      )}
+      {step === "results" && (
+        <ActivityResults
+          answers={userAnswers}
+          onReset={() => {
+            setUserAnswers({ flightNumber: "", departureDate: "" });
+            setStep("landing");
+          }}
+        />
+      )}
+    </main>
   );
 };
 

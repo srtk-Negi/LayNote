@@ -1,8 +1,6 @@
 import requests
 from dotenv import load_dotenv
 from fastapi import APIRouter, Request, HTTPException, status
-from backend.models import users
-from backend.engine import db_engine
 
 
 import os
@@ -11,7 +9,7 @@ router = APIRouter()
 
 load_dotenv()
 
-api_key = os.getenv("API_KEY")
+api_key = os.getenv("LOCATION_IQ_API_KEY")
 
 ACCEPTED_TAGS = [
     "all",
@@ -56,19 +54,15 @@ def activities(lat: float, lon: float, tag: str, radius: int):
         if response.status_code == 200:
             return response.json()
         else:
-            return {"error": "Error"}
+            raise requests.exceptions.RequestException(
+                "Error: Unexpected response {}".format(response.status_code)
+            )
     except requests.exceptions.RequestException as e:
         return {"error": e}
 
 
 @router.post("/activities")
 async def get_activities(request: Request):
-    sql = users.select()
-    with db_engine.begin() as conn:
-        result = conn.execute(sql)
-        for row in result:
-            print(row)
-
     req_body = await request.json()
     lat = req_body.get("lat")
     lon = req_body.get("lon")
@@ -86,5 +80,12 @@ async def get_activities(request: Request):
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Missing query parameters",
         )
+    try:
+        result = activities(lat, lon, tag, radius)
+    except Exception:
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail="Error fetching data",
+        )
 
-    return activities(float(lat), float(lon), tag, int(radius))
+    return result

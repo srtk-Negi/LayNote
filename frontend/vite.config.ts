@@ -7,6 +7,11 @@ export default defineConfig({
   server: {
     proxy: {
       "/api": "http://127.0.0.1:8000",
+      "/data": {
+        target: "https://flight-engine-5mal.onrender.com",
+        changeOrigin: true,
+        rewrite: (path) => path.replace(/^\/data/, ""),
+      },
     },
   },
   resolve: {
