@@ -1,20 +1,15 @@
 import { useState } from "react";
 import { QuizFlow } from "@/components/QuizFlow";
-import { ActivityResults } from "@/components/ActivityResults";
+import ActivityResults from "@/components/ActivityResults";
 import { LandingPage } from "@/components/LandingPage";
 
 export interface Answers {
-  flightNumber: string;
-  departureDate: string;
   [key: string]: string | string[];
 }
 
 const Home = () => {
   const [step, setStep] = useState<"landing" | "quiz" | "results">("landing");
-  const [userAnswers, setUserAnswers] = useState<Answers>({
-    flightNumber: "",
-    departureDate: "",
-  });
+  const [userAnswers, setUserAnswers] = useState<Answers>({});
 
   const handleQuizComplete = (answers: Answers) => {
     setUserAnswers(answers);
@@ -34,7 +29,7 @@ const Home = () => {
         <ActivityResults
           answers={userAnswers}
           onReset={() => {
-            setUserAnswers({ flightNumber: "", departureDate: "" });
+            setUserAnswers({});
             setStep("landing");
           }}
         />

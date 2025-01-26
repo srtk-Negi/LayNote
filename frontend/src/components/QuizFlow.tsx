@@ -1,27 +1,20 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Question } from "../types";
 import { Button } from "./ui/button";
 import { Answers } from "@/pages/Home";
-import { Calendar } from "./ui/calendar";
 
 const layoverQuestions: Question[] = [
   {
-    id: "flightNumber",
-    question: "What is your flight number?",
+    id: "airport",
+    question: "At which airport will you have your layover?",
     type: "text",
-    placeholder: "Enter your flight number here",
+    placeholder: "Enter your airport here",
   },
   {
-    id: "flightNumber2",
-    question: "What is your second flight number?",
+    id: "duration",
+    question: "What is the duration of your layover? (in hours)",
     type: "text",
-    placeholder: "Enter your second flight number here",
-  },
-  {
-    id: "departureDate",
-    question: "What is your departure date?",
-    type: "date",
-    placeholder: "Enter your departure date here",
+    placeholder: "Enter your layover duration here",
   },
   {
     id: "activityType",
@@ -65,6 +58,67 @@ const layoverQuestions: Question[] = [
     placeholder: "Enter your response here",
   },
 ];
+// const layoverQuestions: Question[] = [
+//   {
+//     id: "flightNumber",
+//     question: "What is your flight number?",
+//     type: "text",
+//     placeholder: "Enter your flight number here",
+//   },
+//   {
+//     id: "flightNumber2",
+//     question: "What is your second flight number?",
+//     type: "text",
+//     placeholder: "Enter your second flight number here",
+//   },
+//   {
+//     id: "departureDate",
+//     question: "What is your departure date?",
+//     type: "date",
+//     placeholder: "Enter your departure date here",
+//   },
+//   {
+//     id: "activityType",
+//     question: "What type of activities are you interested in?",
+//     type: "multiple",
+//     options: [
+//       "Entertainment",
+//       "Dining",
+//       "Light eats",
+//       "Relaxation",
+//       "Wellness",
+//       "Live music",
+//       "Shopping",
+//       "Enrichment",
+//     ],
+//   },
+//   {
+//     id: "atmosphere",
+//     question: "What atmosphere would you prefer?",
+//     type: "single",
+//     options: [
+//       "Quiet and relaxing",
+//       "Social and lively",
+//       "Casual and laid-back",
+//     ],
+//   },
+//   {
+//     id: "energy",
+//     question: "How much energy do you currently have for activities?",
+//     type: "single",
+//     options: [
+//       "I'd prefer something low-key and relaxing",
+//       "I'm up for a moderate amount of activity",
+//       "I'm ready for something active and exciting",
+//     ],
+//   },
+//   {
+//     id: "freeResponse",
+//     question: "What are you looking to get out of your layover?",
+//     type: "text",
+//     placeholder: "Enter your response here",
+//   },
+// ];
 
 interface QuizFlowProps {
   onComplete: (answers: Answers) => void;
@@ -76,7 +130,6 @@ export const QuizFlow = ({ onComplete, initialAnswers }: QuizFlowProps) => {
   const [answers, setAnswers] = useState(initialAnswers);
   const [manualAnswer, setManualAnswer] = useState("");
   const [selectedOptions, setSelectedOptions] = useState<string[]>([]);
-  const [date, setDate] = React.useState<Date>(new Date());
 
   const handleSingleAnswer = (answer: string) => {
     const newAnswers = {
@@ -101,15 +154,6 @@ export const QuizFlow = ({ onComplete, initialAnswers }: QuizFlowProps) => {
     const newAnswers = {
       ...answers,
       [layoverQuestions[currentQuestion].id]: answer,
-    };
-    setAnswers(newAnswers);
-    goToNextQuestion(newAnswers);
-  };
-
-  const handleDateAnswer = () => {
-    const newAnswers = {
-      ...answers,
-      [layoverQuestions[currentQuestion].id]: date.toISOString().split("T")[0],
     };
     setAnswers(newAnswers);
     goToNextQuestion(newAnswers);
@@ -200,24 +244,6 @@ export const QuizFlow = ({ onComplete, initialAnswers }: QuizFlowProps) => {
                 />
                 <Button
                   onClick={() => handleManualAnswer(manualAnswer)}
-                  className="mt-8 w-full p-4 rounded-lg bg-violet-500 hover:bg-violet-400 transition-all duration-200"
-                  disabled={manualAnswer.length === 0}
-                >
-                  Next
-                </Button>
-              </div>
-            )}
-
-            {layoverQuestions[currentQuestion].type === "date" && (
-              <div className="mt-4">
-                <Calendar
-                  mode="single"
-                  selected={date}
-                  onSelect={setDate}
-                  className="rounded-md border"
-                />
-                <Button
-                  onClick={() => handleDateAnswer()}
                   className="mt-8 w-full p-4 rounded-lg bg-violet-500 hover:bg-violet-400 transition-all duration-200"
                   disabled={manualAnswer.length === 0}
                 >
