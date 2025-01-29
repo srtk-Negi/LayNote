@@ -24,7 +24,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStart }) => {
           LayNote
         </h1>
         <p className="text-xl mb-12 text-gray-400">
-          Make the most of your time between flights
+          We keep NOTES of your LAYOVERS
         </p>
         <button
           onClick={onStart}

@@ -28,10 +28,10 @@ const LLMResponsePage = ({ answers, onReset }: ActivityResultsProps) => {
     }
 
     const body = {
+      duration,
       activityType,
       airport,
       atmosphere,
-      duration,
       energy,
       freeResponse,
     };

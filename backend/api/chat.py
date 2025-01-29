@@ -16,8 +16,13 @@ async def chat(request: Request):
     client = LangflowClient(flow_id)
 
     duration = data.get("duration")
-    activities = data.get("activities")
+    activityType = data.get("activityType")
     airport = data.get("airport")
+    atmosphere = data.get("atmosphere")
+    energy = data.get("energy")
+    freeResponse = data.get("freeResponse")
+
+    activities = f"{activityType} {atmosphere} {energy} {freeResponse}"
 
     tweaks = {
         "TextInput-ByjK1": {
@@ -31,6 +36,7 @@ async def chat(request: Request):
         },
     }
 
+    print(tweaks)
+
     response = client.run_flow(input_type="chat", tweaks=tweaks, output_type="chat")
-    print(response)
     return response
